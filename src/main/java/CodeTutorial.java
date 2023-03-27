@@ -27,8 +27,6 @@ public class CodeTutorial {
 
     public static void main(String[] args) {
 
-        System.out.println("This is the first element:");
-        System.out.println(args[0]);
         Vehicle bestCar = new Car(1997, "corolla");
         Vehicle shittyCar = new Boat(1859, "Sea Myst");
         StringBuilder result = CodeTutorial.fillTheLoop(args);
